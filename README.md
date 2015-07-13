@@ -25,7 +25,7 @@ std::cout<< "#{name}"_fs
 fs::unwatch("name");
 ```
 
-non-string values
+non-string type values
 ```c++
 // using 'to_string.cpp'
 fs::watch("level", 5);
