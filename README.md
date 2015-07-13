@@ -24,3 +24,11 @@ std::cout<< "#{name}"_fs
 
 fs::unwatch("name");
 ```
+
+```c++
+// using 'to_string.cpp'
+fs::watch("level", 5);
+
+std::cout<< "lv. #{level}"_fs
+// lv. 5
+```
